@@ -1,4 +1,13 @@
 
+## v0.0.2 (2023-11-16)
+
+#### :bug: Bug Fix
+* [#2](https://github.com/spacethree/ember-auth0/pull/2) move auth0 to deps ([@jamemackson](https://github.com/jamemackson))
+
+#### Committers: 1
+- Jame ([@jamemackson](https://github.com/jamemackson))
+
+
 ## v0.0.1 (2023-11-16)
 
 #### :rocket: Enhancement
