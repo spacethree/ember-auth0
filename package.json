@@ -5,7 +5,7 @@
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": "https://github.com/spacethree/ember-auth0",
   "license": "MIT",
   "author": "",
   "typesVersions": {
@@ -43,7 +43,8 @@
     "start": "ember serve",
     "test": "concurrently \"npm:lint\" \"npm:test:*\" --names \"lint,test:\"",
     "test:ember": "ember test",
-    "test:ember-compatibility": "ember try:each"
+    "test:ember-compatibility": "ember try:each",
+    "changelog": "lerna-changelog --from=v0.0.0 > CHANGELOG.md"
   },
   "dependencies": {
     "@babel/core": "^7.23.2",
@@ -51,6 +52,7 @@
     "ember-cli-htmlbars": "^6.3.0"
   },
   "devDependencies": {
+    "@auth0/auth0-spa-js": "^2.1.2",
     "@ember/optional-features": "^2.0.0",
     "@ember/test-helpers": "^3.2.0",
     "@embroider/test-setup": "^3.0.2",
@@ -94,9 +96,11 @@
     "ember-cli-sri": "^2.1.1",
     "ember-cli-terser": "^4.0.2",
     "ember-load-initializers": "^2.1.2",
+    "ember-logging": "^0.0.5",
     "ember-page-title": "^8.0.0",
     "ember-qunit": "^8.0.1",
     "ember-resolver": "^11.0.1",
+    "ember-runtime-env": "^0.0.2",
     "ember-source": "~5.4.0",
     "ember-source-channel-url": "^3.0.0",
     "ember-template-lint": "^5.11.2",
@@ -107,6 +111,7 @@
     "eslint-plugin-n": "^16.2.0",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-qunit": "^8.0.1",
+    "lerna-changelog": "^2.2.0",
     "loader.js": "^4.7.0",
     "prettier": "^3.0.3",
     "qunit": "^2.20.0",
