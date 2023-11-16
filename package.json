@@ -47,12 +47,12 @@
     "changelog": "lerna-changelog --from=v0.0.0 > CHANGELOG.md"
   },
   "dependencies": {
+    "@auth0/auth0-spa-js": "^2.1.2",
     "@babel/core": "^7.23.2",
     "ember-cli-babel": "^8.2.0",
     "ember-cli-htmlbars": "^6.3.0"
   },
   "devDependencies": {
-    "@auth0/auth0-spa-js": "^2.1.2",
     "@ember/optional-features": "^2.0.0",
     "@ember/test-helpers": "^3.2.0",
     "@embroider/test-setup": "^3.0.2",
